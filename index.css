@@ -202,9 +202,14 @@ a:hover{
 .animation-title{
     font-weight:600;
     position: relative;
+    -webkit-animation-name: title;
+    -moz-animation-name: title;
+    -ms-animation-name: title;
+    -o-animation-name: title;
+    -khtml-animation-name: title;
     animation-name: title;
     animation-duration: 3s;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 @keyframes sub-title{
     0%   {color:#F8F8F8;  top:50px;}
@@ -214,9 +219,14 @@ a:hover{
 .animation-sub-title{
     font-weight:600;
     position: relative;
+    -webkit-animation-name: sub-title;
+    -moz-animation-name: sub-title;
+    -ms-animation-name: sub-title;
+    -o-animation-name: sub-title;
+    -khtml-animation-name: sub-title;
     animation-name: sub-title;
     animation-duration: 3s;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 
 
