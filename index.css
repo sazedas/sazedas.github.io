@@ -124,7 +124,7 @@ span{
 .portfolio{
     background-image:url(home_page_img_2.jpg);
     text-shadow: 1px 1px black;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
@@ -140,7 +140,7 @@ span{
 .CV{
     background-image:url(home_page_img_2.jpg);
     text-shadow: 1px 1px black;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -155,7 +155,7 @@ span{
 }
 .resume{
      background-image:url(home_page_img_2.jpg);
-     margin-bottom: 10px;
+     margin-bottom: 30px;
      text-shadow: 1px 1px black;
      background-repeat: no-repeat;
      background-position: center;
@@ -192,12 +192,26 @@ a:link{
 a:hover{
     color: black;
 }
+
+
+@keyframes title{
+    0%   {color:#F8F8F8;  top:-50px;}
+    100% {color:#686868;  top:0px;}
+}
+
+.animation-title{
+    font-weight:600;
+    position: relative;
+    animation-name: title;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
 @keyframes sub-title{
     0%   {color:#F8F8F8;  top:50px;}
     100% {color:#686868;  top:0px;}
 }
 
-.animation1{
+.animation-sub-title{
     font-weight:600;
     position: relative;
     animation-name: sub-title;
