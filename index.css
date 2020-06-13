@@ -1,0 +1,209 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #202020;
+    text-shadow: #9fcdff;
+}
+
+h1{
+    color:black;
+    font-weight: 500;
+    padding-left: 10px;
+}
+hr{
+    color:black;
+}
+
+.nav-text{
+    color: black;
+}
+footer {
+    background-color: #f2f2f2;
+    padding-top:10px;
+    padding-top:10px;
+    color:black;
+}
+.footer-link{
+    color:#262626;
+    font-weight: 500;
+    font-size:12px;
+}
+footer:hover{
+    color: black;
+    font-weight:600;
+}
+
+.heading-text{
+    background-color:#f5f5f0;
+}
+img{
+    transition: transform .7s;
+    border: 1px groove #B8B8B8;
+    box-shadow: 5px 10px 10px #696969;
+    opacity:.5;
+    /*filter: blur(2px);
+    -webkit-filter: blur(2px);
+    */
+}
+.text-indent{
+    margin-top:40px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.card{
+    display: inline-block;
+
+}
+.card-info{
+    width: 300px;
+    height: 200px;
+    margin:20px;
+    border: 1px groove white;
+    transition: transform .7s;
+    background-color: #F8F8F8;
+    color:#585858;
+    box-shadow: 5px 5px 10px #D3D3D3;
+}
+
+.card-info:hover{
+    border: 3px groove #B8B8B8;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -moz-transform: scale(1.1); /* Firefox 3 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+}
+.button-color{
+    background-color: #1a1a1a;
+    margin-bottom: 30px;
+}
+
+
+img:hover{
+    border: 3px solid #A9A9A9;
+}
+img.portfolio{
+    opacity: .9;
+}
+
+.text-color{
+    padding-top: 5px;
+    text-align: center;
+    color: #282828;
+    font-size: 10px;
+}
+img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:400px; top:0px}
+    75%  {background-color:green; left:800px; top:0px;}
+    100% {background-color:red; left:1000px; top:0px;}
+}
+span{
+    color: #707070;
+}
+
+
+
+.portfolio{
+    background-image:url(home_page_img_2.jpg);
+    text-shadow: 1px 1px black;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    font-weight: 400;
+    line-height:5em;
+    font-family:"Gill Sans", "Times New Roman";
+    font-size:3em;
+    text-align:center;
+    word-spacing: .2em;
+    color: 	#505050;
+    background-size: cover;
+}
+.CV{
+    background-image:url(home_page_img_2.jpg);
+    text-shadow: 1px 1px black;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: 400;
+    line-height:5em;
+    font-family:"Gill Sans", "Times New Roman";
+    font-size:3em;
+    text-align:center;
+    word-spacing: .2em;
+    color: 	#505050;
+    background-size: cover;
+}
+.resume{
+     background-image:url(home_page_img_2.jpg);
+     margin-bottom: 10px;
+     text-shadow: 1px 1px black;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     font-weight: 400;
+     line-height:5em;
+     font-family:"Gill Sans", "Times New Roman";
+     font-size:3em;
+     text-align:center;
+     word-spacing: .2em;
+     color: #505050;
+     background-size: cover;
+ }
+
+.contact{
+      background-image:url(home_page_img_2.jpg);
+      margin-bottom: 10px;
+      text-shadow: 1px 1px black;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      font-weight: 400;
+      line-height:5em;
+      font-family:"Gill Sans", "Times New Roman";
+      font-size:3em;
+      text-align:center;
+      word-spacing: .2em;
+      color: #505050;
+      background-size: cover;
+  }
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+@keyframes sub-title{
+    0%   {color:#F8F8F8;  top:50px;}
+    100% {color:#686868;  top:0px;}
+}
+
+.animation1{
+    font-weight:600;
+    position: relative;
+    animation-name: sub-title;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+
+
