@@ -208,7 +208,7 @@ a:hover{
 }
 
 @keyframes title{
-    0%   {color:#F8F8F8;opacity:.1; top:-35px;}
+    0%   {color:#F8F8F8;opacity:.1; top:-25px;}
     100% {color:#686868; top:0px;}
 }
 
