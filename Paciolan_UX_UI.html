@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Paciolan SDM UX/UI Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse ">
+        <div class="container-fluid ">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="curriculum_vitae.html">Curriculum Vitae</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact_me.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron heading-text" style="font-family:'Courier New', Courier, monospace;">
+        <div class="container text-center">
+            <h2 class="text-center text">Paciolan's Supplemental Data Management (SDM) Tool UX/UI Design</h2>
+        </div>
+    </div>
+
+    <div class="container-fluid sm-3">
+        <div class="row" style="padding-left: 20px; padding-right: 20px">
+            <div class="col-sm-12">
+                <h3 class="text-center text-animation  paciolan-card">Project Description</h3>
+                <div class="card" >
+                    <div class="card-body">
+                        <p class="card-text">
+                            The project is a web-based application that involves
+                            UX design and implementation of the design. It
+                            tasked with the job of redesigning a previous model
+                            and adding additional features and functionalities.
+                            This application uses messaging architecture to
+                            manage metadata for events such as enabling near-field
+                            communication (NFC), event relations, etc. This
+                            project utilized tools like <span style="color:#2A69B7; font-weight: bold">React</span>,
+                            <span style="color:#2A69B7; font-weight: bold">JavaScript</span>,  <span style="color:#2A69B7; font-weight: bold">NodeJS</span>,
+                            <span style="color:#2A69B7; font-weight: bold">Express</span>, and <span style="color:#2A69B7; font-weight: bold">Kafka</span>.
+                            In this project, we will mostly
+                            focus on the Front End web application through creating <span style="color:#2A69B7; font-weight: bold">search page</span>
+                            , <span style="color:#2A69B7; font-weight: bold">search result page</span>, and
+                            <span style="color:#2A69B7; font-weight: bold">bulk update page</span> and managing
+                            metadata from events of the application. This project
+                            catered to customers/clients like the Pac8
+                            collegiate teams and others that utilize the main tool.
+                            The tool developed mostly focused on allowing our
+                            clients to modify or enable a few features for their events,
+                            and to display metadata.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+
+        <div class="row" style="padding-left: 20px; padding-right: 20px">
+            <div class="col-sm-6">
+                <h3 class="text-center text-animation paciolan-card">Persona</h3>
+                <img class="img-fluid img-thumbnail center paciolan-image" src="Paciolan_Persona_1.png" alt=""><br><br>
+            </div>
+            <div class="col-sm-6">
+                <h3 class="text-center text-animation paciolan-card">Scenario</h3>
+                <p>
+                    Robert, as the director of ticket operations,  wants to
+                    change the settings of his events so that they run smoothly.
+                    He wants to enable NFC for all of his events in the
+                    spring 2020 season, so he goes to the search page and
+                    searches “spring 2020”. His results are displayed and
+                    he selects all after hitting the update button. He
+                    then checks the NFC checkboxes so that they are enabled.
+                    He confirms his changes and sees the summary page.
+                </p>
+            </div>
+        </div><br><br>
+
+            <div class="row" style="padding-left: 20px; padding-right: 20px">
+                <div class="col-sm-12">
+                    <h3 class="text-center text-animation paciolan-card">Search Page Mockup</h3>
+                    <p class="first-letter"><img class="img-fluid img-thumbnail text-center paciolan-image" style="float:left;margin-right: 30px" src="search-page-final-mockup.png" alt="">
+                        <p>
+                        <span style="font-weight: bold"> Old design </span>: The search function was conducted only
+                            using the event code and season code.
+                        </p>
+                        <p>
+                        <span style="font-weight: bold"> New design </span>: Converted it into a freeform search where the user
+                        can enter any keyword relevant to the event into
+                        the search box, and the system will return them a list of matching events.
+                        </p>
+                    </p>
+                </div>
+            </div><br><br><br><br>
+
+            <h3 class="text-center text-animation paciolan-card" style="margin-left: 20px; margin-right: 20px">Search Result Page Mockup</h3>
+            <div class="row" style="padding-left: 20px; padding-right: 20px">
+                <div class="col-sm-4">
+                    <p class="text-center">
+                        Initial Search Result Page
+                    </p><br>
+                    <img class="img-fluid img-thumbnail paciolan-image" style="float:left; width: 600px" src="search-result-page-1.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center">
+                        New error notification matching
+                        Paciolan’s UX/UI design guidelines
+                    </p>
+                    <img class="img-fluid img-thumbnail paciolan-image" style="float:left; width: 600px" src="search-result-page-2.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center">
+                        Filtering options
+                    </p><br>
+                    <img class="img-fluid img-thumbnail paciolan-image" style="float:left; width: 600px" src="search-result-page-3.png" alt="">
+                </div>
+            </div><br><br><br><br>
+
+            <h3 class="text-center text-animation paciolan-card" style="margin-left: 20px; margin-right: 20px">Bulk Update Page Mockup</h3>
+            <div class="row" style="padding-left: 20px; padding-right: 20px">
+                <div class="col-sm-6">
+                    <img class="img-fluid img-thumbnail paciolan-image" src="bulk-update-page-mockup-1.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid img-thumbnail paciolan-image"  src="bulk-update-page-mockup-2.png" alt="">
+                </div>
+            </div>
+            <div class="row" style="padding-left: 20px; padding-right: 20px">
+                <div class="col-sm-6">
+                    <img class="img-fluid img-thumbnail paciolan-image" src="bulk-update-page-mockup-3.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid img-thumbnail paciolan-image"  src="bulk-update-page-mockup-4.png" alt="">
+                </div>
+            </div><br><br><br><br>
+
+
+            <h3 class="text-center text-animation paciolan-card" style="margin-left: 20px; margin-right: 20px">Bulk Update Page Mockup</h3>
+            <div class="row" style="padding-left: 20px; padding-right: 20px">
+                <div class="col-sm-4">
+                    <img class="img-fluid img-thumbnail paciolan-image" src="bulk-update-page-mockup-1.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid img-thumbnail paciolan-image"  src="bulk-update-page-mockup-2.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-fluid img-thumbnail paciolan-image"  src="bulk-update-page-mockup-2.png" alt="">
+                </div>
+            </div><br><br><br>
+
+        <h3 class="text-center text-animation paciolan-card" style="margin-left: 20px; margin-right: 30px">Storyboards</h3>
+        <div class="row" style="padding-left: 20px; padding-right: 20px">
+            <div class="col-sm-6">
+                <img class="img-fluid img-thumbnail paciolan-image" src="free-search-function.jpg" alt="">
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid img-thumbnail paciolan-image"  src="search-result-page-filter.png" alt="">
+            </div>
+        </div><br><br><br>
+
+    </div><br><br><br><br>
+
+    <footer class="container-fluid text-center">
+        <a href="contact_me.html" target="_blank" title="Contact me"><p class="footer-link">Contact</p></a>
+    </footer>
+
+
+</body>

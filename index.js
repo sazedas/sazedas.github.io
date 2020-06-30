@@ -1,4 +1,4 @@
-
+console.log("hello");
 /* Curriculum Vitae page*/
 const CV = ()=> {
     window.open("Sazeda Sultana Curriculum Vitae.pdf");
@@ -11,26 +11,24 @@ const resume = ()=>{
 
 
 /* Portfolio page - UX/UI */
-const Competitive_analysis= ()=>{
-    window.open("Proposal and Competitive Analysis.pdf");
+const RobotKid_UX_UI= ()=>{
+    window.open("robotKid_ux_ui.html");
 }
 const Paper_Browser_Tool= ()=>{
     window.open("https://www.figma.com/file/SkFhnnEUZklWyGju353UDT/Paper-Browser-Tool?node-id=0%3A1");
 }
 const Understanding_users= ()=>{
-    window.open("Understanding Your Users, Potential Users, and Other Stakeholders.pdf");
+    window.open("understanding_users.html");
 }
 const usability= ()=>{
-    window.open("Identify Usability Issues.pdf");
+    window.open("usability.html");
 }
 const Redesign= ()=>{
-    window.open("Redesign.pdf");
+    window.open("redesign.html");
 }
-const complete_UX_UI_redesign= ()=>{
-    window.open("Heuristic Evaluation.pdf");
-}
+
 const Paciolan_UX_UI_redesign= ()=>{
-    window.open("Paciolan's Web App System Design.pdf");
+    window.open("Paciolan_UX_UI.html");
 }
 
 
@@ -42,12 +40,12 @@ const Paper_Browser_Tool_Web_design= ()=>{
     window.open("https://depstein.github.io/personalinformatics-metareview/");
 }
 const Paciolan_Web_Design= ()=>{
-    window.open("...");
+    window.open("paciolan_search_result_Page.html");
 }
 
 /* Portfolio page - Research */
 const thesis= ()=>{
-    window.open("UCI_Honors_Thesis.pdf");
+    window.open("UCI_honors_thesis.pdf");
 }
 const published_paper= ()=>{
     window.open("...");
@@ -57,41 +55,34 @@ const published_paper= ()=>{
 
 /* Portfolio page - Software Requirements Engineering */
 const Stakeholder_model = ()=>{
-    window.open("Stakeholder Model and Elicitation Documentation.pdf");
+    window.open("stakeholder_model_and_elicitation_documentation.pdf");
 }
 const Goal_Oriented_Analysis_Model= ()=>{
-    window.open("Goal-Oriented Analysis Model.pdf");
+    window.open("goal_oriented_analysis_model.pdf");
 }
 const Usage_Model= ()=>{
-    window.open("Usage Model - Scenarios and Use Cases.pdf");
+    window.open("usage_model_scenarios_and_use_cases.pdf");
 }
 const Domain_model= ()=>{
-    window.open("Domain Model - Class Diagrams.pdf");
+    window.open("domain_model_class_diagrams.pdf");
 }
 const Systems_requirements_specification= ()=>{
-    window.open("Systems Requirements Specification.pdf");
+    window.open("systems_requirements_specification.pdf");
 }
 const Software_validation= ()=>{
-    window.open("Validation or Customer Review.pdf");
+    window.open("validation_or_customer_review.pdf");
 }
 
 /* Portfolio page - Software Design */
-const RoboKid= ()=>{
-    window.open("RoboKid - Design Studio 1.pdf");
-}
-const educational_traffic_flow_simulation_program= ()=>{
-    window.open("Design Studio 2.pdf");
-}
 const History= ()=>{
-    window.open("History - Design Studio 3.pdf");
+    window.open("history.pdf");
+}
+const Paciolan_software_design= ()=>{
+    window.open("paciolan_software_design.html");
 }
 
-/* Portfolio page - Software System Design */
-const Paciolan_system_design= ()=>{
-    window.open("Paciolan's Web App System Design.pdf");
-}
 
 /* Portfolio page - Computer Supported Cooperative Work */
 const Google_Drive= ()=>{
-    window.open("Google Drive from Collaborative Perspective.pdf");
+    window.open("google_drive.pdf");
 }

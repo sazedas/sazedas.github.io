@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Redesign freerice.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" data-toggle="tooltip" data-placement="top" title="">Home</a></li>
+                <li class="active"><a href="portfolio.html" data-toggle="tooltip" data-placement="top" title="Explore my portfolio">Portfolio</a></li>
+                <li><a href="curriculum_vitae.html" data-toggle="tooltip" data-placement="top" title="Analyze my CV">Curriculum Vitae</a></li>
+                <li><a href="resume.html" data-toggle="tooltip" data-placement="top" title="View my resume">Resume</a></li>
+                <li><a href="contact_me.html" data-toggle="tooltip" data-placement="top" title="Contact me">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron heading-text" style="color:#990000;font-family:'Courier New', Courier, monospace">
+    <div class="container text-center">
+        <h2 class="text-center text">Redesign FreeRice.com</h2>
+    </div>
+</div>
+
+<div class="container-fluid sm-3">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3 class="text-center text-animation" style="background-color:#181818">Goals of the Project</h3>
+            <p class="first-letter">
+                The goal of the redesign project is to <span style="font-weight:800">improve the user experience</span>
+                of the product. User experience included the usability of the product,
+                but also includes user preferences, emotional  responses, fit to task,
+                or anything else that would improve the broad experience of freerice.com.
+                The study was interested in the UX as a whole, even if it was focused
+                on one small subset of the interface or tasks. Situations where redesign
+                fixes one problem but creates new problems for other users or tasks were avoided.
+            </p>
+            <p class="first-letter">
+                The design approach in the project was <span style="font-weight:800">evidence-based.</span>
+                Adequate justifications were provided for our decision
+                about what to change and the specific changes
+                we suggest.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="text-center text-animation" style="background-color:#181818">Executive Summary</h3>
+            <p class="first-letter">
+                After having collected information regarding the system via user interviews,
+                cognitive walkthroughs, etc., the following four redesign
+                targets were selected for the system:
+                <ul style="list-style-type: square">
+                    <li>
+                        Buttons/Navigation Layout/Overall Look/Login and Signup system
+                        as many issues exist with the current system,
+                        from lack of feedback when users select unavailable/invalid
+                        usernames to latency issues when signing up and logging in.
+                        As well as issues with users locating buttons due to color
+                        scheme, layout, etc.
+                    </li>
+                    <li>
+                        Changing the ways users see and interact with the change
+                        levels feature as it is hidden from users until after answering
+                        the first question as well as location of the button and
+                        style makes it difficult to identify as a button.
+                    </li>
+                    <li>
+                        Incorporating rewarding feedback into the system as users
+                        lose interest due to lack of change within the system when
+                        answering questions. As well as lacking a feeling of
+                        accomplishment when answering multiple questions correctly.
+                    </li>
+                    <li>
+                        Changing Start page/Landing page/Game flow as the system
+                        currently exists it fails to provide users with a sense of
+                        direction. The system exists as learning game/donation
+                        game but fails to behave like a game as it gives no directions.
+                    </li>
+                </ul>
+            </p><br>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="text-center text-animation" style="background-color:#181818">Steps of Redesign</h3>
+            <p class="first-letter">
+                The previously mentioned redesign targets are addressed by combining
+                desired solutions from sketches drawn by project team members,
+                which were driven by user provided suggestions, usability
+                principles, and other UI/UX design principles. The landing
+                page now acts like a proper “game” by providing new users
+                a quick tutorial when first visiting the website showing
+                them where all the information they need to know is at.
+                The navigation layout and overall look of the system has
+                also been changed to better reflect a modern style and
+                by the removal of unnecessary features like a “home”/”Game”
+                button on the main page. The interaction between users
+                and the change levels features has been changed so it
+                is present at all times and has its location shown via
+                the tutorial. Lastly the system now incorporates rewarding
+                feedback, when users answer multiple questions correctly
+                they are provided with auditory feedback (which can be
+                disabled if users please) and visual feedback in the form
+                of a message/alert (which can also be disabled if users please).
+
+            </p><br>
+        </div>
+    </div>
+    <!-- end rows-->
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h3 class="text-center text-animation" style="background-color:#181818">Redesign Process</h3>
+            <div class="row">
+                <div class="col-sm-3 text-center">
+                    <div class="shake-text" style="background-color:#181818">Redesign Target 1: Change levels feature</div><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Problem</div>
+                            <p> No clear direction in interface to change level</p>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-problem1.png" alt=""><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Evidence</div>
+                            <p> The eye tracking of the users</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Solution</div>
+                            <p> “message/tutorial” to help new users navigate</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Process</div>
+                            <h5>1.Sketch</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-sketch1.png" alt=""><br>
+                            <br><br><br><br><br><br><br><br><br><br><br><br>
+                            <h5>2.Wireframe</h5>
+                            <img class="img-fluid img-thumbnail redesign" style="width: 300px;height: 300px;" src="redesign-wireframe1.png" alt=""><br><br>
+                            <h5>3.High Fidelity Prototype or Mock-up</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup1.png" alt="">
+                </div>
+
+
+                <div class="col-sm-3 text-center">
+                    <div class="shake-text" style="color:#404040">Redesign Target 2: Change landing page</div><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Problem</div>
+                            <p> Difficulty understanding how to use and navigate</p>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-problem2.png" alt=""><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Evidence</div>
+                            <p> User observation</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Solution</div>
+                            <p>Prompting landing page helping navigate the site</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Process</div>
+                            <h5>1.Sketch</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-sketch2.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-sketch2-2.png" alt=""><br><br>
+                            <h5>2.Wireframe</h5>
+                            <img class="img-fluid img-thumbnail redesign" style="width: 300px;height: 300px;" src="redesign-wireframe2.png" alt=""><br><br>
+                            <h5>3.High Fidelity Prototype or Mock-up</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup2.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup3.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup4.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup5.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup6.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup7.png" alt=""><br><br>
+                 </div>
+
+
+
+                <div class="col-sm-3 text-center">
+                    <div class="shake-text" style="color:#404040">Redesign Target 3: Sign in/Sign up</div><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Problem</div>
+                            <p> Lack of feedback after sign-up or log-in</p>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-problem3.png" alt=""><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Evidence</div>
+                            <p> cognitive walkthrough</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Solution</div>
+                            <p>Recognizable sign-in/up with proper feedback</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Process</div>
+                            <h5>1.Sketch</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-sketch3-1.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-sketch3-2.png" alt=""><br><br>
+                            <h5>2.Wireframe</h5>
+                            <img class="img-fluid img-thumbnail redesign" style="width: 300px;height: 300px;" src="redesign-wireframe3.png" alt=""><br><br>
+                            <h5>3.High Fidelity Prototype or Mock-up</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup8.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup9.png" alt="">
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup10.png" alt=""><br><br>
+                    </div>
+
+
+
+                <div class="col-sm-3 text-center">
+                    <div class="shake-text" style="color:#404040">Redesign Target 4: Rewarding feedback</div><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Problem</div>
+                            <p>Lack of encouraging feedback</p>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-problem4.png" alt=""><br><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Evidence</div>
+                            <p> Interviews</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Solution</div>
+                            <p>Encourages feedback for users</p><br>
+                            <div class="text-center text-animation sub-title-for-redesign-page">Process</div>
+                            <h5>1.Sketch</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-sketch4.png" alt=""><br>
+                            <br><br><br><br><br><br><br><br><br><br><br><br>
+                            <h5>2.Wireframe</h5>
+                            <img class="img-fluid img-thumbnail redesign" style="width: 300px;height: 300px;" src="redesign-wireframe4.png" alt=""><br><br>
+                            <h5>3.High Fidelity Prototype or Mock-up</h5>
+                            <img class="img-fluid img-thumbnail redesign" src="redesign-mockup11.png" alt=""><br><br>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+    </div>
+
+</div><br><br><br><br>
+
+    <footer class="container-fluid text-center">
+        <a href="contact_me.html" target="_blank" title="Contact me"><p class="footer-link">Contact</p></a>
+    </footer>
+
+</body>
+</html>
