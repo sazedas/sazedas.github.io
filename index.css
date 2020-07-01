@@ -643,26 +643,26 @@ h5{
             0px 2px 0 grey,
             0px 3px 0 #2a2a2a,
             0px 4px 0 grey,
-            0px 5px 0 #262626,
+            0px 5px 0 white,
             0px 6px 0 grey,
             0px 7px 0 #222,
             0px 8px 0 grey,
             0px 9px 0 #1e1e1e,
             0px 10px 0 grey,
-            0px 11px 0 #1a1a1a,
+            0px 11px 0 white,
             0px 12px 0 grey,
             0px 13px 0 #161616,
             0px 14px 0 grey,
             0px 15px 0 #121212,
             2px 20px 5px grey,
-            1px 1px 0 #2e2e2e,
+            1px 1px 0 white,
             1px 2px 0 grey,
             1px 3px 0 #2a2a2a,
             1px 4px 0 grey,
             1px 5px 0 #262626,
             1px 6px 0 grey,
             1px 7px 0 #222,
-            1px 8px 0 grey,
+            1px 8px 0 white,
             1px 9px 0 #1e1e1e,
             1px 10px 0 grey,
             1px 11px 0 #1a1a1a,
@@ -682,6 +682,25 @@ h5{
             0px 2px 0 grey;
 
 }
+.animated_image{
+    background-image: url(multicolor_image.jpg);
+    background-repeat: no-repeat;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
 
 
 
