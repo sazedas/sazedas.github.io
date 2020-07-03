@@ -55,22 +55,22 @@ const published_paper= ()=>{
 
 /* Portfolio page - Software Requirements Engineering */
 const Stakeholder_model = ()=>{
-    window.open("stakeholder_model_and_elicitation_documentation.pdf");
+    window.open("stakeholder_model_and_elicitation_documentation.html");
 }
 const Goal_Oriented_Analysis_Model= ()=>{
-    window.open("goal_oriented_analysis_model.pdf");
+    window.open("goal_oriented_analysis_model.html");
 }
 const Usage_Model= ()=>{
-    window.open("usage_model_scenarios_and_use_cases.pdf");
+    window.open("usage_model_scenarios_and_use_cases.html");
 }
 const Domain_model= ()=>{
-    window.open("domain_model_class_diagrams.pdf");
+    window.open("domain_model_class_diagrams.html");
 }
 const Systems_requirements_specification= ()=>{
-    window.open("systems_requirements_specification.pdf");
+    window.open("systems_requirements_specification.html");
 }
 const Software_validation= ()=>{
-    window.open("validation_or_customer_review.pdf");
+    window.open("validation_or_customer_review.html");
 }
 
 /* Portfolio page - Software Design */
