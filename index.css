@@ -528,6 +528,40 @@ h5{
     color: white;
 }
 
+.thesis-card{
+    border-left: 140px solid skyblue;
+    border-right: 140px solid skyblue;
+    background-color: lightgrey;
+    font-size: 20px;
+    color: darkblue;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.thesis-image{
+    width:700px;
+    height:400px;
+    margin:5px;
+    box-shadow: 5px 5px 10px #D3D3D3;
+}
+.thesis-image:hover{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.thesis-findings-image{
+    width:500px;
+    height:300px;
+    margin:5px;
+    box-shadow: 5px 5px 10px #D3D3D3;
+}
+.thesis-findings-image:hover{
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
 .robotKid-card{
     border-radius: 50%;
     background-color: white;
