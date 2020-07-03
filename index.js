@@ -55,7 +55,7 @@ const published_paper= ()=>{
 
 /* Portfolio page - Software Requirements Engineering */
 const Stakeholder_model = ()=>{
-    window.open("stakeholder_model_and_elicitation_documentation.html");
+    window.open("requirement_elicitation_and_stakeholder_model .html");
 }
 const Goal_Oriented_Analysis_Model= ()=>{
     window.open("goal_oriented_analysis_model.html");
