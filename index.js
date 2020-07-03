@@ -6,7 +6,7 @@ const CV = ()=> {
 
 /* Resume page */
 const resume = ()=>{
-    window.open("Sazeda_Sultana_Resume.pdf");
+    window.open("resume.pdf");
 }
 
 
