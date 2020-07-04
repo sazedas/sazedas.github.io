@@ -551,8 +551,8 @@ ul li span{
 }
 
 .thesis-card{
-    border-left: 140px solid skyblue;
-    border-right: 140px solid skyblue;
+    border-left: 50px solid skyblue;
+    border-right: 50px solid skyblue;
     background-color: lightgrey;
     font-size: 20px;
     color: darkblue;
