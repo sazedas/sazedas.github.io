@@ -45,12 +45,11 @@ const Paciolan_Web_Design= ()=>{
 
 /* Portfolio page - Research */
 const thesis= ()=>{
-    window.open("UCI_honors_thesis.html");
+    document.getElementById('demo').innerHTML = window.open("UCI_honors_thesis.html");
 }
 const published_paper= ()=>{
     window.open("...");
 }
-
 
 
 /* Portfolio page - Software Requirements Engineering */
@@ -74,11 +73,11 @@ const Software_validation= ()=>{
 }
 
 /* Portfolio page - Software Design */
-const History= ()=>{
-    window.open("history.pdf");
-}
 const Paciolan_software_design= ()=>{
-    window.open("paciolan_software_design.html");
+    document.getElementById('demo').innerHTML= window.open("paciolan_software_design.html");
+}
+const History= ()=>{
+    window.open("history.html")
 }
 
 
@@ -86,3 +85,4 @@ const Paciolan_software_design= ()=>{
 const Google_Drive= ()=>{
     window.open("google_drive.pdf");
 }
+
