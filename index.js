@@ -83,6 +83,6 @@ const History= ()=>{
 
 /* Portfolio page - Computer Supported Cooperative Work */
 const Google_Drive= ()=>{
-    window.open("google_drive.pdf");
+    window.open("google_drive.html");
 }
 
