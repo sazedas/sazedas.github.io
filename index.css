@@ -592,6 +592,31 @@ ul li span{
     font-size: 22px;
     color: #a9a9a9;
 }
+.history-software-design{
+    background-color: seagreen;
+    border: 0px groove #a9a9a9;
+    box-shadow: 4px 4px 10px #a9a9a9;
+    font-size: 22px;
+    color: white;
+}
+.history-interaction-design{
+    background-color: #e8c264;
+    opacity: .8;
+    border: 0px groove #a9a9a9;
+    box-shadow: 5px 5px 10px grey;
+    font-size: 22px;
+    color: black;
+}
+.history-interaction-design-text{
+    color: #daa520;
+    text-shadow: 2px 2px 2px grey;
+    font-weight: bold;
+}
+.google-drive-text{
+    color: cadetblue;
+    text-shadow: 2px 2px 2px grey;
+    font-weight: bold;
+}
 
 
 .paciolan-image{

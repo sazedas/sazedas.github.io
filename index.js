@@ -32,6 +32,12 @@ const Paciolan_UX_UI_redesign= ()=>{
 }
 
 
+/* Portfolio page - Interaction Desing */
+const History_Interaction_Design = () =>{
+    window.open(" history_interaction_design.html");
+}
+
+
 /* Portfolio page - Web Design */
 const PeekPeek= ()=>{
     window.open("http://dev-peekpeek.com.s3-website-us-west-1.amazonaws.com/");
@@ -48,7 +54,16 @@ const thesis= ()=>{
     document.getElementById('demo').innerHTML = window.open("UCI_honors_thesis.html");
 }
 const published_paper= ()=>{
-    window.open("...");
+    window.open("published_paper.html");
+}
+
+
+/* Portfolio page - Software Design */
+const Paciolan_software_design= ()=>{
+    window.open("paciolan_software_design.html");
+}
+const History= ()=>{
+    window.open("history.html")
 }
 
 
@@ -60,7 +75,7 @@ const Goal_Oriented_Analysis_Model= ()=>{
     window.open("goal_oriented_analysis_model.html");
 }
 const Usage_Model= ()=>{
-    window.open("usage_model_scenarios_and_use_cases.html");
+    window.open("usage_model_scenarios_use_cases.html");
 }
 const Domain_model= ()=>{
     window.open("domain_model_class_diagrams.html");
@@ -72,17 +87,14 @@ const Software_validation= ()=>{
     window.open("validation_or_customer_review.html");
 }
 
-/* Portfolio page - Software Design */
-const Paciolan_software_design= ()=>{
-    document.getElementById('demo').innerHTML= window.open("paciolan_software_design.html");
-}
-const History= ()=>{
-    window.open("history.html")
-}
 
 
 /* Portfolio page - Computer Supported Cooperative Work */
 const Google_Drive= ()=>{
     window.open("google_drive.html");
 }
+
+$("#fake").click(function() {
+    $("html").toggleClass("csstransforms");
+});
 
