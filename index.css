@@ -633,7 +633,7 @@ ul li span{
 .shake-background{
     border: 10px solid transparent;
     padding-top: -25px;
-    animation: shake 2s;
+    animation: shake 2s infinite;
     animation-iteration-count: 2;
 }
 

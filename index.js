@@ -51,7 +51,7 @@ const Paciolan_Web_Design= ()=>{
 
 /* Portfolio page - Research */
 const thesis= ()=>{
-    document.getElementById('demo').innerHTML = window.open("UCI_honors_thesis.html");
+    window.open("UCI_honors_thesis.html");
 }
 const published_paper= ()=>{
     window.open("published_paper.html");
