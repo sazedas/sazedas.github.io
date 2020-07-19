@@ -49,6 +49,10 @@ const Paciolan_Web_Design= ()=>{
     window.open("paciolan_search_result_Page.html");
 }
 
+const Imaginary_Flower_Shop_Sally= () =>{
+    window.open("flower_shop_index.html")
+}
+
 /* Portfolio page - Research */
 const thesis= ()=>{
     window.open("UCI_honors_thesis.html");
