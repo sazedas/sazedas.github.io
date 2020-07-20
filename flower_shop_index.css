@@ -67,7 +67,7 @@ body{
     background-image:url(mixed_flower.jpg);
     text-shadow: 1px 1px 1px black;
     margin-top: 1px;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -78,6 +78,19 @@ body{
     text-align:center;
     color: 	white;
     background-size: cover;
+}
+.title{
+
+    font-size:120px;
+    letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: mediumpurple;
+    -moz-text-fill-color: transparent;
+    -moz-text-stroke-width: 3px;
+    -moz-text-stroke-color: mediumpurple;
+    text-shadow: 4px 4px white,
+    4px 4px grey;
 }
 
 .important-rose{
@@ -385,7 +398,6 @@ body{
 }
 .button{
     background-color:black;
-    border:solid 1px rebeccapurple;
     border-radius: 10px;
     width: 10vw;
     height:5vh;
@@ -395,7 +407,6 @@ body{
     text-shadow: 2px 2px black;
     color:white;
     text-decoration: none;
-    margin: 10px;
 }
 
 .center {
