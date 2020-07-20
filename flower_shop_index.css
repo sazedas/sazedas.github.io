@@ -89,8 +89,9 @@ body{
     -moz-text-fill-color: transparent;
     -moz-text-stroke-width: 3px;
     -moz-text-stroke-color: mediumpurple;
-    text-shadow: 4px 4px white,
-    4px 4px grey;
+    text-shadow:
+            4px 4px white,
+            5px 5px black;
 }
 
 .important-rose{
