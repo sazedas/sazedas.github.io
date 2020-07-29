@@ -98,13 +98,9 @@ const Google_Drive= ()=>{
 }
 
 /* Portfolio page - Games */
-function JavaScript_Game() {
+const JavaScript_Game=() => {
     window.open("javaScript_game.html")
 }
 
 
-
-$("#fake").click(function() {
-    $("html").toggleClass("csstransforms");
-});
 
