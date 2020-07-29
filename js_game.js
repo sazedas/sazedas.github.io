@@ -67,7 +67,7 @@ function  user_age() {
 
         var text = "You selected " + random_year +"." +"<br>"+ " It is a " + date_difference +
             " years variance of your actual year of birth if you were born in" + random_year +
-            ". <=== Around that time ===> " +"<br>" + "<br>"+ past_era_description;
+            ". <=== Around that time ===> " +"<br>" + past_era_description;
 
         document.getElementById("demo1").innerHTML = text;
         document.getElementById("demo1").style.width = "80%";
