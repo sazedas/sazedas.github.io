@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Modak");
+
+button{
+    width:120px;
+    height:120px;
+    font-style: oblique;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    box-shadow:2px 2px 7px darkslategrey;
+    border: 5px solid transparent;
+    border-image: url("pattern_image_for_circles.jpg") 30 round;
+}
+span{
+    margin: 10px;
+}
+p{
+    font-size: 30px;
+}
+button:hover {
+    -webkit-animation: shake 0.5s ease-in-out 0.5s infinite alternate;
+    -moz-animation: shake 0.5s ease-in-out 0.5s infinite alternate;
+    -ms-animation: shake 0.5s ease-in-out 0.5s infinite alternate;
+    -o-animation: shake 0.5s ease-in-out 0.5s infinite alternate;
+
+}
+
+@-webkit-keyframes shake {
+    from {
+        -webkit-transform: rotate(10deg);
+    }
+    to {
+        -webkit-transform-origin:center center;
+        -webkit-transform: rotate(-10deg);
+    }
+
+}
+.image-resize {
+    background-color: #04B4AE;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    width: 10%;
+}
+
+.img-animation1{
+    background-color: #04B4AE;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    animation: imageAnimation 3s;
+    animation-iteratin-count: infinite;
+}
+
+@keyframes imageAnimation1{
+    from   {background-color:pink; }
+    25%   {background-color:grey; }
+    50% {background-color:blue;}
+    75% {background-color:red;}
+    to {background-color:black;}
+
+}
+
+.animation1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    position: relative;
+    animation: move 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    from {top: 0px;}
+    to {top: 500px;}
+}
+
+.shake_item{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: skewX(-5deg); }
+    5% { transform: skewX(5deg); }
+    10% { transform: skewX(-5deg); }
+    15% { transform: skewX(5deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }
+}
+/*
+.dot {
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    display: inline-block;
+}
+*/
+
+.text {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 84%;
+    font-family: Modak;
+    padding-left: 7px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.text-4 {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200px' height='200px' viewBox='0 0 400 400'%3e%3cdefs%3e%3cfilter id='filter' width='400px' height='400px' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3e%3cfeFlood flood-color='%230fd850' flood-opacity='1' x='0' y='0' width='250px' height='250px' result='flood3'%3e%3c/feFlood%3e%3cfeFlood flood-color='%2320E2D7' flood-opacity='1' x='80px' y='160px' width='250px' height='250px' result='flood4'%3e%3c/feFlood%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood3' edgeMode='none' result='blur1'%3e%3c/feGaussianBlur%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood4' edgeMode='none' result='blur2'%3e%3c/feGaussianBlur%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur2' in2='SourceGraphic' result='blend5'%3e%3c/feBlend%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur1' in2='blend5' result='blend6'%3e%3c/feBlend%3e%3c/filter%3e%3c/defs%3e%3crect width='400' height='400' x='0' y='0' fill='%23fbed96' filter='url(%23filter)'%3e%3c/rect%3e%3c/svg%3e");
+}
+
+.lin-grd-1{
+    background-image: linear-gradient(#FAEBD7, #B8860B , #FFEBCD, green, #556B2F, #8FBC8F, #E9967A);
+}
+.headings{
+    color: grey;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px grey;
+    text-shadow: 3px 3px 2px grey;
+    text-shadow: 3px 3px 2px lightgrey;
+}
+.headings2{
+    color: grey;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*
+.move-circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: move_c;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes move_c {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+*/
+
+

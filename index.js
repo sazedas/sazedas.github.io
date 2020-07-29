@@ -92,11 +92,17 @@ const Software_validation= ()=>{
 }
 
 
-
 /* Portfolio page - Computer Supported Cooperative Work */
 const Google_Drive= ()=>{
     window.open("google_drive.html");
 }
+
+/* Portfolio page - Games */
+function JavaScript_Game() {
+    window.open("javaScript_game.html")
+}
+
+
 
 $("#fake").click(function() {
     $("html").toggleClass("csstransforms");

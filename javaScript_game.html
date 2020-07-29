@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Date Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js_game.js"></script>
+    <link rel="stylesheet" type="text/css" href="js_game.css"/>
+</head>
+
+<body style="background: radial-gradient(circle at 50% 50%,  #323232, mintcream 80%, #000000 100%);">
+    <div>
+        <h1 class="text-center headings">Do you want to know how the world surrounding you looked like if you were born in a different date? </h1>
+        <h3 class="text-center headings2"style="color: whitesmoke; text-shadow: 2px 2px grey">Click on the circles to know, by choosing a random time from the past.</h3>
+    </div><br>
+    <p class="text-center center" style="background-color: white;box-shadow: inset 0 0 40px mediumseagreen;" id="demo1"></p><br>
+
+    <div style="width:100%;margin-left:37px;margin-right:27px;">
+        <span class="dot shake-text" onclick="user_age()"><button style="background-color: #DEB887;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #5F9EA0;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #7FFF00;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #D2691E;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FF7F50;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #6495ED;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #8B008B;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #DC143C;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #00FFFF;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #00008B;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #008B8B;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #B8860B;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #006400;">Click me!</button></span>
+
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #BDB76B;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FF8C00;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #9932CC">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #8B0000;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #E9967A;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #8FBC8F;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #483D8B;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #2F4F4F;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #00CED1;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #9400D3;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FF1493;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #B22222;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FF00FF;">Click me!</button></span>
+
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FFD700;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #008000">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #ADFF2F;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FF69B4;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #CD5C5C;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #DAA520;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #4B0082;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #F0E68C;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #90EE90;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #D3D3D3;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #7CFC00;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #F08080;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #ADD8E6;">Click me!</button></span>
+
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #0000CD;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #90EE90">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FFB6C1;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FFA07A;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #20B2AA;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #87CEFA;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #778899;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #B0C4DE;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #00FF00;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #32CD32;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #ff3333;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #800000;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #66CDAA;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #FF4500;">Click me!</button></span>
+        <span class="dot move-circle" onclick="user_age()"><button style="background-color: #BA55D3;">Click me!</button></span>
+    </div>
+</body>
