@@ -85,13 +85,68 @@ img{
     -moz-transform: scale(1.1); /* Firefox 3 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1);
-
 }
+
+.card-info-for-home{
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10%;
+    transition: transform .7s;
+    border: 2px solid white;
+    background: linear-gradient(45deg, #e58565, #a4c171, #b74c4c, #7FCBE6
+    );
+    border-image-slice: 1;
+    box-shadow: 5px 5px 10px #D3D3D3;
+}
+
+.card-text{
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 10%;
+    text-shadow: 2px 2px 4px black;
+}
+.skill-text-3d-effect{
+    margin-top: 0px;
+    color: darkgrey;
+    white-space: nowrap;
+    font-size: 3em;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 0 grey;
+}
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+}
+.down{
+    transform: rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 .button-color{
     background-color: #1a1a1a;
     margin-bottom: 30px;
 }
-
+.arrow-animation{
+    animation-name: arrow-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes arrow-color{
+    0% {background-color: #db5224;}
+    50% {background-color: #7fa046;}
+    75% {background-color: #0099cd;}
+    100% {background-color: #0099cd;}
+}
 
 
 img.portfolio{
