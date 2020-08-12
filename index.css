@@ -146,14 +146,14 @@ img{
 }
 .arrow-animation{
     animation-name: arrow-color;
-    animation-duration: 6s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
 }
 @keyframes arrow-color{
     0% {padding: 10px; background-color: #db5224;}
-    50% {background-color: #7fa046;}
-    75% {background-color: #0099cd;}
-    100% {background-color: #0099cd;}
+    50% {padding: 5px;background-color: #7fa046;}
+    75% {padding: 2px;background-color: #0099cd;}
+    100% {padding: 0px;background-color: #0099cd;}
 }
 
 
@@ -375,7 +375,7 @@ a:hover{
     -o-animation-name: title;
     -khtml-animation-name: title;
     animation-name: title;
-    animation-duration: 6s;
+    animation-duration: 2s;
 }
 
 @keyframes title{
@@ -392,7 +392,7 @@ a:hover{
     -o-animation-name: sub-title;
     -khtml-animation-name: sub-title;
     animation-name: sub-title;
-    animation-duration: 6s;
+    animation-duration: 2s;
 }
 @keyframes sub-title{
     0%  {top:55px;opacity:.1}
