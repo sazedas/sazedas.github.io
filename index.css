@@ -146,7 +146,7 @@ img{
 }
 .arrow-animation{
     animation-name: arrow-color;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-iteration-count: 1;
 }
 @keyframes arrow-color{
