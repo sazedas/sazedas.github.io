@@ -103,7 +103,7 @@ img{
     box-shadow: 5px 5px 10px #D3D3D3;
 }
 
-.card-text{
+.text-for-square{
     padding-top: 40px;
     padding-bottom: 40px;
     transform: rotate(-45deg);
