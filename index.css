@@ -649,12 +649,12 @@ ul li span{
 }
 
 .robotKid-card{
-    border-radius: 50%;
     background-color: white;
-    border: 0px groove #a9a9a9;
-    box-shadow: 4px 4px 10px #a9a9a9;
+    border: 1px dotted seagreen;
+    padding: 3px;
+    box-shadow: inset 0px 0px 10px #a9a9a9;
     font-size: 22px;
-    color: #a9a9a9;
+    color:dimgrey;;
 }
 .history-software-design{
     background-color: seagreen;
