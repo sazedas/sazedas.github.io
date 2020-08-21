@@ -99,7 +99,10 @@ const Google_Drive= ()=>{
 
 /* Portfolio page - Games */
 const JavaScript_Game=() => {
-    window.open("javaScript_game.html")
+    window.open("javaScript_game.html");
+}
+const JavaScript_Rain_Game=()=>{
+    window.open("rain_game.html");
 }
 
 
