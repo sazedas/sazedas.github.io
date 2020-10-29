@@ -48,9 +48,14 @@ const Paper_Browser_Tool_Web_design= ()=>{
 const Paciolan_Web_Design= ()=>{
     window.open("paciolan_search_result_Page.html");
 }
-
 const Imaginary_Flower_Shop_Sally= () =>{
     window.open("flower_shop_index.html")
+}
+const titanRadio = ()=>{
+    window.open("https://www.titanradio.org/");
+}
+const titanUniverse = () =>{
+    window.open("https://www.titanuniverse.org/");
 }
 
 /* Portfolio page - Research */
