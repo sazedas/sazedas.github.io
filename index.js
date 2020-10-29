@@ -26,9 +26,14 @@ const usability= ()=>{
 const Redesign= ()=>{
     window.open("redesign.html");
 }
-
 const Paciolan_UX_UI_redesign= ()=>{
     window.open("Paciolan_UX_UI.html");
+}
+const BubbleSortly = () =>{
+    window.open("https://www.figma.com/file/j6ww43vy2oNMUgghrl05Fz/BubbleSortlyBook.ai?node-id=0%3A1");
+}
+const SuperlyCafeteria = () =>{
+    window.open("https://www.figma.com/file/bqjYHDIbkKWG3jZZAUQnTc/Superly-Cafeteria");
 }
 
 
