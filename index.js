@@ -68,7 +68,7 @@ const thesis= ()=>{
     window.open("UCI_honors_thesis.html");
 }
 const published_paper= ()=>{
-    window.open("published_paper.html");
+    window.open("https://depstein.net/assets/pubs/depstein_imwut20.pdf");
 }
 
 
