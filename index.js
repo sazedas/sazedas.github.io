@@ -48,7 +48,7 @@ const PeekPeek= ()=>{
     window.open("http://dev-peekpeek.com.s3-website-us-west-1.amazonaws.com/");
 }
 const Paper_Browser_Tool_Web_design= ()=>{
-    window.open("https://depstein.github.io/personalinformatics-metareview/");
+    window.open("http://personal-informatics.depstein.net/");
 }
 const Paciolan_Web_Design= ()=>{
     window.open("paciolan_search_result_Page.html");
