@@ -114,6 +114,9 @@ const JavaScript_Game=() => {
 const JavaScript_Rain_Game=()=>{
     window.open("rain_game.html");
 }
+const JavaScript_Number_Guess_Game=()=>{
+    window.open('number_guess_game.html');
+}
 
 
 
